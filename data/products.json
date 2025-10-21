@@ -1,0 +1,161 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "iPhone 15 Pro Max",
+      "brand": "Apple",
+      "price": 130000,
+      "images": ["https://source.unsplash.com/collection/190727/800x600?iphone","https://source.unsplash.com/collection/190727/800x600?smartphone"],
+      "description": "Apple iPhone 15 Pro Max — powerful performance and great cameras.",
+      "category": "phone",
+      "deal": true,
+      "condition": "Grade A Refurbished",
+      "specifications": ["A17 Pro", "256GB Storage", "6.7-inch OLED", "48MP Camera"]
+    },
+    {
+      "id": 2,
+      "name": "iPhone 14",
+      "brand": "Apple",
+      "price": 65000,
+      "images": ["https://source.unsplash.com/collection/190727/800x600?iphone14","https://source.unsplash.com/collection/190727/800x600?apple"],
+      "description": "iPhone 14 — reliable performance and great battery life.",
+      "category": "phone",
+      "deal": false,
+      "condition": "Grade B Refurbished",
+      "specifications": ["A15 Bionic", "128GB", "6.1-inch Super Retina", "Dual 12MP Cameras"]
+    },
+    {
+      "id": 3,
+      "name": "Samsung Galaxy S24",
+      "brand": "Samsung",
+      "price": 95000,
+      "images": ["https://source.unsplash.com/collection/190727/800x600?samsung","https://source.unsplash.com/collection/190727/800x600?galaxy"],
+      "description": "Galaxy S24 — stunning display and flagship camera system.",
+      "category": "phone",
+      "deal": true,
+      "condition": "Grade A Refurbished",
+      "specifications": ["Snapdragon 8 Gen 3", "128GB", "6.2-inch Dynamic AMOLED", "50MP Camera"]
+    },
+    {
+      "id": 4,
+      "name": "Samsung Galaxy A55",
+      "brand": "Samsung",
+      "price": 32000,
+      "images": ["https://source.unsplash.com/collection/190727/800x600?galaxyA","https://source.unsplash.com/collection/190727/800x600?androidphone"],
+      "description": "Galaxy A55 — midrange performance with excellent battery life.",
+      "category": "phone",
+      "deal": false,
+      "condition": "Grade B Refurbished",
+      "specifications": ["Exynos/Snapdragon", "128GB", "6.4-inch AMOLED", "64MP Camera"]
+    },
+    {
+      "id": 5,
+      "name": "Redmi Note 13 Pro",
+      "brand": "Redmi",
+      "price": 28000,
+      "images": ["https://source.unsplash.com/collection/190727/800x600?xiaomi","https://source.unsplash.com/collection/190727/800x600?redmi"],
+      "description": "Redmi Note 13 Pro — value phone with strong specs.",
+      "category": "phone",
+      "deal": false,
+      "condition": "Grade B Refurbished",
+      "specifications": ["Snapdragon 7 Gen 3", "256GB", "6.67-inch AMOLED", "108MP Camera"]
+    },
+    {
+      "id": 6,
+      "name": "Infinix Zero Ultra",
+      "brand": "Infinix",
+      "price": 23000,
+      "images": ["https://source.unsplash.com/collection/190727/800x600?infinix","https://source.unsplash.com/collection/190727/800x600?mobile"],
+      "description": "Infinix Zero Ultra — fast charging and strong battery performance.",
+      "category": "phone",
+      "deal": true,
+      "condition": "Grade A Refurbished",
+      "specifications": ["Mediatek Dimensity", "256GB", "6.8-inch AMOLED", "200W Fast Charge"]
+    },
+    {
+      "id": 7,
+      "name": "Oppo Reno10",
+      "brand": "Oppo",
+      "price": 24000,
+      "images": ["https://source.unsplash.com/collection/190727/800x600?oppo","https://source.unsplash.com/collection/190727/800x600?reno"],
+      "description": "Oppo Reno10 — stylish design and balanced performance.",
+      "category": "phone",
+      "deal": false,
+      "condition": "Grade B Refurbished",
+      "specifications": ["Snapdragon/Mediatek", "128GB", "6.7-inch AMOLED", "64MP Camera"]
+    },
+
+    {
+      "id": 11,
+      "name": "MacBook Air M2",
+      "brand": "Apple",
+      "price": 110000,
+      "images": ["https://source.unsplash.com/collection/190727/800x600?macbook","https://source.unsplash.com/collection/190727/800x600?laptop"],
+      "description": "MacBook Air with Apple M2 chip — light, fast, and efficient.",
+      "category": "laptop",
+      "deal": true,
+      "condition": "Grade A Refurbished",
+      "specifications": ["Apple M2", "8GB RAM", "256GB SSD", "13.6-inch Retina"]
+    },
+    {
+      "id": 12,
+      "name": "MacBook Pro M3",
+      "brand": "Apple",
+      "price": 240000,
+      "images": ["https://source.unsplash.com/collection/190727/800x600?macbookpro","https://source.unsplash.com/collection/190727/800x600?notebook"],
+      "description": "MacBook Pro with M3 — professional performance for creators.",
+      "category": "laptop",
+      "deal": false,
+      "condition": "Grade A Refurbished",
+      "specifications": ["Apple M3", "16GB RAM", "512GB SSD", "14-inch Liquid Retina"]
+    },
+    {
+      "id": 13,
+      "name": "HP Envy 13",
+      "brand": "HP",
+      "price": 52000,
+      "images": ["https://source.unsplash.com/collection/190727/800x600?hplaptop","https://source.unsplash.com/collection/190727/800x600?ultrabook"],
+      "description": "HP Envy 13 — sleek ultrabook for everyday productivity.",
+      "category": "laptop",
+      "deal": false,
+      "condition": "Grade B Refurbished",
+      "specifications": ["Intel i5", "8GB RAM", "256GB SSD", "13.3-inch FHD"]
+    },
+    {
+      "id": 14,
+      "name": "HP Spectre x360",
+      "brand": "HP",
+      "price": 98000,
+      "images": ["https://source.unsplash.com/collection/190727/800x600?hp","https://source.unsplash.com/collection/190727/800x600?convertible"],
+      "description": "HP Spectre x360 — premium 2-in-1 convertible laptop.",
+      "category": "laptop",
+      "deal": true,
+      "condition": "Grade A Refurbished",
+      "specifications": ["Intel i7", "16GB RAM", "512GB SSD", "13.5-inch OLED Touch"]
+    },
+    {
+      "id": 15,
+      "name": "Dell XPS 13",
+      "brand": "Dell",
+      "price": 90000,
+      "images": ["https://source.unsplash.com/collection/190727/800x600?dell","https://source.unsplash.com/collection/190727/800x600?xps"],
+      "description": "Dell XPS 13 — compact premium laptop with excellent screen.",
+      "category": "laptop",
+      "deal": false,
+      "condition": "Grade A Refurbished",
+      "specifications": ["Intel i7", "16GB RAM", "512GB SSD", "13.4-inch FHD"]
+    },
+    {
+      "id": 16,
+      "name": "Dell Latitude 5420",
+      "brand": "Dell",
+      "price": 68000,
+      "images": ["https://source.unsplash.com/collection/190727/800x600?latitude","https://source.unsplash.com/collection/190727/800x600?businesslaptop"],
+      "description": "Dell Latitude 5420 — reliable business laptop built for durability.",
+      "category": "laptop",
+      "deal": false,
+      "condition": "Grade B Refurbished",
+      "specifications": ["Intel i5", "8GB RAM", "256GB SSD", "14-inch FHD"]
+    }
+  ]
+}

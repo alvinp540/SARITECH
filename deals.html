@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Deals | SariTech ElectroMart</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body class="bg-gradient-to-br from-blue-900 via-indigo-800 to-purple-900 text-white min-h-screen flex flex-col">
+
+  <!-- Navbar -->
+  <nav class="bg-gradient-to-r from-blue-800 via-indigo-700 to-purple-800 shadow-lg sticky top-0 z-50">
+    <div class="container mx-auto flex items-center justify-between p-4">
+      <a href="index.html" class="flex items-center space-x-2">
+        <i class="fa-solid fa-bolt text-yellow-400 text-2xl"></i>
+        <span class="font-extrabold text-2xl tracking-wide">SariTech</span>
+      </a>
+      <ul class="hidden md:flex space-x-8 text-lg font-semibold">
+        <li><a href="index.html" class="hover:text-yellow-400 transition">Home</a></li>
+        <li><a href="shop.html" class="hover:text-yellow-400 transition">Shop</a></li>
+        <li><a href="deals.html" class="hover:text-yellow-400 transition">Deals</a></li>
+        <li><a href="contact.html" class="hover:text-yellow-400 transition">Contact</a></li>
+      </ul>
+      <div class="flex items-center space-x-4">
+        <a href="shop.html" class="relative">
+          <i class="fas fa-shopping-cart text-2xl hover:text-yellow-400 transition"></i>
+          <span id="cart-count-3" class="absolute -top-2 -right-2 bg-yellow-400 text-black text-xs font-bold rounded-full px-1.5">0</span>
+        </a>
+        <button id="mobile-menu-btn-3" class="md:hidden text-2xl hover:text-yellow-400 transition">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container mx-auto px-4 py-10 flex-1">
+    <div class="flex items-center justify-between mb-6">
+      <h1 class="text-3xl font-bold">Deals & Offers</h1>
+      <p class="text-gray-300">Limited-time discounted phones & laptops — grab them while they last!</p>
+    </div>
+
+    <div id="deals-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+      <!-- populated by main.js -->
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gradient-to-r from-blue-900 via-indigo-800 to-purple-900 py-10 mt-auto">
+    <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8 text-gray-300">
+      <div>
+        <h3 class="text-xl font-bold text-yellow-400 mb-4">SariTech ElectroMart</h3>
+        <p>Your trusted source for Ex-UK electronics at unbeatable prices.</p>
+      </div>
+      <div>
+        <h3 class="text-xl font-bold text-yellow-400 mb-4">Quick Links</h3>
+        <ul class="space-y-2">
+          <li><a href="index.html" class="hover:text-yellow-400 transition">Home</a></li>
+          <li><a href="shop.html" class="hover:text-yellow-400 transition">Shop</a></li>
+          <li><a href="contact.html" class="hover:text-yellow-400 transition">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="text-xl font-bold text-yellow-400 mb-4">Contact Us</h3>
+        <p><i class="fa-solid fa-phone text-yellow-400 mr-2"></i> +254 712 345 678</p>
+        <p><i class="fa-solid fa-envelope text-yellow-400 mr-2"></i> info@saritech.co.ke</p>
+      </div>
+    </div>
+    <div class="text-center text-gray-400 mt-8 text-sm border-t border-gray-700 pt-4">
+      &copy; <span id="year-deals"></span> SariTech ElectroMart. All rights reserved.
+    </div>
+  </footer>
+
+  <!-- Modal -->
+  <div id="product-modal-deals" class="fixed inset-0 bg-black/70 flex items-center justify-center z-50 hidden">
+    <div class="bg-white rounded-2xl max-w-4xl w-full mx-4 max-h-[90vh] overflow-y-auto">
+      <div class="p-6">
+        <div class="flex justify-between items-start mb-6">
+          <h2 id="modal-title-deals" class="text-2xl font-bold text-blue-900"></h2>
+          <button id="modal-close-deals" class="text-gray-500 hover:text-gray-700 text-2xl">&times;</button>
+        </div>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div id="modal-images-deals" class="space-y-4"></div>
+          <div id="modal-info-deals" class="space-y-4"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
